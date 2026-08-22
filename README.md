@@ -103,3 +103,4 @@ KitabGhar/
 - **Experiment 2**: Software Requirement Specification (SRS) & 6 Core Modules.
 - **Experiment 3**: Data Modeling, Data Dictionary & Schema (`database/schema.sql`).
 - **Experiment 4**: Software Designing, UML Use Case, Class & Activity Architecture.
+# kitab-garh
