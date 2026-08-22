@@ -1,0 +1,24 @@
+{
+  "name": "kitabghar",
+  "version": "1.0.0",
+  "description": "KitabGhar - 3-Tier MERN Stack eBook Management System",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "start": "npm start --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "kitabghar",
+    "ebook-management",
+    "mern",
+    "3-tier-architecture"
+  ],
+  "author": "KitabGhar Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
