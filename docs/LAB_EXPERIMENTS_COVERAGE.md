@@ -18,7 +18,7 @@ This document cross-references each day of your **Software Tools & Techniques La
 - **Module 6: Security & DRM**: JWT authentication, bcrypt password hashing, and DRM content protection flags.
 
 ### Experiment 3: Data Modeling & Data Dictionary
-The relational tables defined in the Day 3 lab manual are mapped 1-to-1 in `database/schema.sql` and as Mongoose schemas:
+The entities defined in the Day 3 lab manual are modeled as Mongoose schemas:
 1. **Customer**: `User.js` (`customerId`, `firstName`, `lastName`, `dob`, `gender`)
 2. **Login**: `User.js` (`username`, `password`, `role`)
 3. **Customer Detail**: `User.js` (`email`, `phone`, `city`, `state`, `zip`)
